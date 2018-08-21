@@ -27,7 +27,6 @@ deploy:
     script: bash scripts/deploy-webgoat.sh
     on:
       repo: sourabhkatti/WebGoat
-      tags: true
   - provider: releases
     skip_cleanup: true
     overwrite: true
@@ -38,7 +37,6 @@ deploy:
     file: $WEBGOAT_ARTIFACTS_FOLDER/*
     on:
       repo: sourabhkatti/WebGoat
-      tags: true
 env:
   global:
   #Docker login
