@@ -26,7 +26,7 @@ deploy:
     skip_cleanup: true
     script: bash scripts/deploy-webgoat.sh
     on:
-      repo: WebGoat/WebGoat
+      repo: WebGoat
       tags: true
   - provider: releases
     skip_cleanup: true
