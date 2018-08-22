@@ -1,7 +1,6 @@
 #!/usr/bin/env bash
 
 echo "STARTING DEPLOY SCRIPT"
-docker login -u $DOCKER_USER -p $DOCKER_PASS
 export REPO=webgoat/webgoat-8.0
 
 cd webgoat-server
