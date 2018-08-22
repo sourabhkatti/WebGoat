@@ -20,7 +20,6 @@ before_deploy:
   - cp -fa $WEBGOAT_SERVER_TARGET_DIR/*.jar $WEBGOAT_ARTIFACTS_FOLDER/
   - cp -fa $WEBWOLF_TARGET_DIR/*.jar $WEBGOAT_ARTIFACTS_FOLDER/
   - echo "Contents of artifacts folder:"
-
   - ls $WEBGOAT_ARTIFACTS_FOLDER
 deploy:
   - provider: script
